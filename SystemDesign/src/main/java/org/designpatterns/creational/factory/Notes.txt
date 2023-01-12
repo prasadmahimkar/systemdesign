@@ -1,0 +1,24 @@
+Type : Creational
+
+Analogy: Factory producing different types of bottle lids, the implementation is hidden but the client gets the lids as per requirement
+
+Real-world Example :
+    -Architects create design and interfaces for the team
+    -Calendar and NumberFormat in Java
+    -Frameworks and Library
+
+
+--Creating objects of similar type
+--Hides complexity of object creation
+--Client code has no idea about object creation
+
+We would need to use
+    1.Factory Class(Abstract Interface) --> Exposed to the Client Code
+        -Factory Method
+    2.Concrete Class(Real Implementation)
+        -Factory Method Implementation
+
+Pros
+-Simple concept
+Cons
+-Refactoring of existing code into this pattern is quite complex
