@@ -1,4 +1,6 @@
-Type : Creational
+Type: Creational
+
+UseCase Implementation Example: Course Website which provides various courses and subsequent modules
 
 Analogy: Factory producing different types of bottle lids, the implementation is hidden but the client gets the lids as per requirement
 
@@ -20,5 +22,16 @@ We would need to use
 
 Pros
 -Simple concept
+-Gurantees Abstraction
+-Code is flexible and adaptable
+-Very useful for frameworks and libraries
+
 Cons
--Refactoring of existing code into this pattern is quite complex
+-Refactoring of existing code into this pattern is quite complex - Not a pattern that can be refactored into
+Complex code
+Takes time to set the base
+
+Summary
+-Useful for creation of objects that fall under same categorization but still have different properties
+-Helps in hiding complexity
+-One has to start thinking ahead to implement such a pattern
